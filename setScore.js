@@ -11,7 +11,7 @@
     } else {
         let percent = Number(parseFloat(prompt('What percent do u want?')));
         if (percent > 100) {
-            alert('Percent must be less than 100');
+            alert('Score cannot be over 100');
         } else {
             save_tests(percent , 5);
         }
